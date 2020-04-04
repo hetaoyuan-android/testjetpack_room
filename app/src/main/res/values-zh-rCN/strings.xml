@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">本地化</string>
+    <string name="image">图片</string>
+    <string name="name">姓名</string>
+    <string name="pwd">密码</string>
+    <string name="version">版本</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/placeholder">
+
+    <navigation android:id="@+id/navigation"
+        app:startDestination="@id/placeholder">
+        <fragment android:id="@+id/placeholder" />
+        <fragment android:id="@+id/placeholder2" />
+    </navigation>
+    <fragment android:id="@+id/placeholder3" >
+        <action
+            android:id="@+id/action_placeholder3_to_placeholder4"
+            app:destination="@id/placeholder4" />
+    </fragment>
+    <fragment android:id="@+id/placeholder4" >
+        <action
+            android:id="@+id/action_placeholder4_to_placeholder3"
+            app:destination="@id/placeholder3" />
+    </fragment>
+</navigation>
